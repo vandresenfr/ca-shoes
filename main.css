@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: rgb(72, 72, 245);
+    color: #fff;
+}
+
+#cabecalho .nav-item .nav-link {
+    color: #fff;
+}
+
+#sobre-a-loja .carousel-item img {
+    height: 600px;
+    width: 100%;
+}
+
+#promocoes, #produtos {
+    background-color: rgb(234, 234, 241);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(240, 240, 248);
+    color: rgb(117, 117, 230);
+}
+
+.tittle-color {
+    color: rgb(28, 28, 243);
+}
+
+#promocoes button,#produtos .produtos button{
+    background-color: rgb(45, 179, 78);
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section-tittle {
+    text-transform: uppercase;
+}
+
+.text-colored {
+    color: rgb(28, 28, 243);
+}
+
+#produtos {
+    border-top: solid 3px rgb(28, 28, 243);
+}
+
+.social-links li {
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: rgb(28, 28, 243);
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    #sobre-a-loja .carousel-item img {
+        height: 280px;
+    }
+}

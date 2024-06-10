@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Shoes</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="cabecalho" class="navbar navbar-expand-lg sticky-top pb-3 pt-3">
+        <div class="container">
+            <h1>CA Shoes</h1>
+            <nav class="navbar-collapse collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="fw-bold nav-item">
+                        <a href="#sobre-a-loja" class="nav-link">Sobre a loja</a>
+                    </li>
+                    <li class="fw-bold nav-item">
+                        <a href="#promocoes" class="nav-link">Promoções</a>
+                    </li>
+                    <li class="fw-bold nav-item">
+                        <a href="#produtos" class="nav-link">Produtos</a>
+                    </li>
+                    <li class="fw-bold nav-item">
+                        <a href="#contato" class="nav-link">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://img.freepik.com/fotos-gratis/um-corredor-com-uma-protese-pronto-para-comecar-a-corrida_60438-3697.jpg?t=st=1717640128~exp=1717643728~hmac=030b3766975e0ba4b911ec8acb540a7c6493448ed371b913d2351f5bcaaaad2b&w=1380" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://img.freepik.com/fotos-gratis/retrato-de-atletas-competindo-nos-jogos-olimpicos_23-2151450265.jpg?t=st=1717640302~exp=1717643902~hmac=c90b483f0e0d572762342bed61bbdf56ea51e9cd8da385c2d2d44e9c1dfb41a5&w=1380" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://img.freepik.com/fotos-gratis/retrato-de-atletas-competindo-nos-jogos-olimpicos_23-2151450271.jpg?t=st=1717640229~exp=1717643829~hmac=79188ef8fe321b3fd35844fc5c2134f7fb2b8312ba1408f523443458a73be447&w=1380" alt="">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://gdmiami.b-cdn.net/wp-content/uploads/2016/07/lojas-de-tenis-corrida-esportivo-miami.jpg" class="w-100 d-block" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="mt-3 mt-md-0">
+                                <span class="tittle-color">Sobre</span> a loja
+                            </h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore odit et architecto maxime. Omnis inventore corrupti beatae? Quasi veritatis sunt eius maxime magni magnam mollitia itaque similique, aspernatur vitae voluptatibus.
+                            </p>
+                            <h3>
+                                <span class="tittle-color">Nossos</span> produtos
+                            </h3>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti omnis, illo, exercitationem eius cum accusamus ullam quas natus quos inventore eveniet ipsa deserunt perferendis quis nulla consequuntur neque. Qui, impedit?
+                            </p>
+                            <ul>
+                                <li class="fs-5">Produto 1</li>
+                                <li class="fs-5">Produto 2</li>
+                                <li class="fs-5">Produto 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5">
+                        <span class="tittle-color">Promoções</span> Relâmpago
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3" alt="tenis nike branco e vermelho">
+                        <h3 class="fs-4">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                        <del>R$ 399,99</del>
+                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                        <p>Ou 5x de R$ 51,99</p>
+                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="w-100 d-block mb-3" src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-13-feminino/06/JD8-6467-006/JD8-6467-006_zoom1.jpg?ts=1710777522?ims=1088x" alt="tenis nike preto e branco">
+                        <h3 class="fs-4">Tênis Nike Downshifter 13 Feminino - Preto</h3>
+                        <del>R$ 399,99</del>
+                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                        <p>Ou 5x de R$ 51,99</p>
+                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="w-100 d-block mb-3" src="https://static.netshoes.com.br/produtos/tenis-nike-structure-25-masculino/14/JD8-6146-014/JD8-6146-014_zoom1.jpg?ts=1704481151?ims=1088x" alt="tenis nike branco e azul">
+                        <h3 class="fs-4">Tênis Nike Structure 25 Masculino - Branco</h3>
+                        <del>R$ 399,99</del>
+                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                        <p>Ou 5x de R$ 51,99</p>
+                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5 mt-5"><span class="tittle-color">Nossos</span> Produtos</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-collumn">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class="fw-bold text-start nav-link active">Tênis</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camisetas" class="fw-bold text-start nav-link">Camisetas de time</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bicicletas" class="fw-bold text-start nav-link">Bicicletas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#chuteiras" class="fw-bold text-start nav-link">Chuteiras</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tenis">
+                                <div class="row produtos">
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/tenis-nike-revolution-7-masculino/24/JD8-6598-024/JD8-6598-024_zoom1.jpg?ts=1711650466?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="tenis nike branco e vermelho">
+                                        <h3 class="fs-5">Tênis Nike Revolution 7 Masculino - Branco+Vermelho</h3>
+                                        <p class="fw-bold fs-4 mb-0">259,99 à vista</p>
+                                        <p>Ou 5x de R$ 51,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="camisetas">
+                                <div class="row produtos">
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/camiseta-santos-oficial-esportiva-poliester/06/496-3039-006/496-3039-006_zoom1.jpg?ts=1712415308?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Camiseta Santos Oficial Esportiva Poliéster - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">89,99 à vista</p>
+                                        <p>Ou 5x de R$ 17,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bicicletas">
+                                <div class="row produtos">
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/bicicleta-aro-29-krw-aluminio-24-vel-freio-a-disco-x52/08/CGY-0302-108/CGY-0302-108_zoom1.jpg?ts=1712753521?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Bicicleta Aro 29 KRW Alumínio 24 Vel Freio a Disco X52 - Azul+Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">1089,99 à vista</p>
+                                        <p>Ou 5x de R$ 217,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="chuteiras">
+                                <div class="row produtos">
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="https://static.netshoes.com.br/produtos/chuteira-campo-adidas-x-crazyfast-p3-unissex-exclusiva/06/FB8-8724-006/FB8-8724-006_zoom1.jpg?ts=1710336232?ims=1088x" class="w-100 d-block mb-3 mt-3" alt="camiseta preta do santos">
+                                        <h3 class="fs-5">Chuteira Campo Adidas X Crazyfast P3 Unissex - Exclusiva - Preto</h3>
+                                        <p class="fw-bold fs-4 mb-0">359,99 à vista</p>
+                                        <p>Ou 5x de R$ 71,99</p>
+                                        <button type="button" class="btn w-100 fw-bold">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="mb-5 mt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center">Fale <span class="tittle-color">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored" >Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored" >Seu email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored" >Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored" >Sua mensagem</label>
+                                <textarea  id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-tittle fs-4 mt-3">
+                                <i class="bi bi-hand-thumbs-up-fill text-colored"></i>
+                                Redes socias
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-tittle fs-4">
+                                <i class="bi bi-cursor-fill text-colored"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo n 145, Bairro Bootstrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+<script src="./lib/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="./js/jquery.mask.min.js"></script>
+<script src="./js/jquery.validate.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/messages_pt_BR.min.js"></script>
+</body>
+</html>
